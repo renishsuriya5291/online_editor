@@ -7,5 +7,5 @@ export const initSocket = async () => {
         timeout: 10000,
         transports: ['websocket'],
     };
-    return io("https://online-editor-server-peach.vercel.app", options);
+    return io("https://editor-server-80oj.onrender.com", options);
 };
